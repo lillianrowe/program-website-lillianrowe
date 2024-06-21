@@ -13,3 +13,43 @@ h6,
 figcaption {
 	font-family: "Orbitron", sans-serif;
 }
+
+.container {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.center-image {
+	display: block;
+	margin: 0 auto;
+}
+
+/* ===================== nav bar ======================== */
+
+Header nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #424949;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: flex-end;
+}
+
+header nav ul li {
+	display: block;
+}
+
+header nav ul li a {
+	display: block;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	background-color: #3b5998;
+}
