@@ -70,6 +70,7 @@ header nav ul li a:hover {
 .hero-text {
 	display: table-cell;
 	color: white;
+	vertical-align: middle;
 	font-size: 1.5em;
 }
 
@@ -188,4 +189,31 @@ header nav ul li a:hover {
 .menu-box p {
 	margin: 60px 10px 0px 10px;
 	color: white;
+}
+
+/* ==================== program features ================ */
+
+#features {
+	margin-top: 50px;
+}
+
+#features h2 {
+	text-align: center;
+	font-size: 2em;
+}
+
+.features-grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	margin: 0;
+	padding: 0;
+}
+
+.features-grid-item {
+	padding: 20px;
+	text-align: center;
+}
+
+.features-grid-item i {
+	font-size: 5em;
 }
