@@ -325,3 +325,76 @@ header nav ul li a:hover {
 #video iframe {
 	margin: 50px 0px 50px 0px;
 }
+
+/* ========================== call to action ========================== */
+
+#action {
+	text-align: center;
+}
+
+#action h2 {
+	padding: 90px 0px 25px 0px;
+}
+
+#action button {
+	background-color: #3b5998;
+	border: none;
+	padding: 15px 100px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 3px;
+	margin: 30px auto 30px auto;
+	color: #fff;
+	font-family: "Orbitron", sans-serif;
+	cursor: pointer;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+#action button:hover {
+	background-color: #424949;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.25),
+		0 17px 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* ====================== footer ====================== */
+
+footer {
+	background-color: #424949;
+	color: #fff;
+	padding: 25px 0px;
+}
+
+footer nav ul {
+	list-style-type: none;
+	margin: 25px auto;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+}
+
+footer nav ul li {
+	display: inline;
+}
+
+footer nav ul li a {
+	display: inline-block;
+	color: white;
+	padding: 14px 16px;
+}
+
+footer nav ul li a:hover {
+	background-color: #3b5998;
+}
+
+footer p {
+	margin: 30px auto;
+	text-align: center;
+}
+
+footer hr {
+	border: 0px;
+	height: 1px;
+	background: white;
+	background-image: linear-gradient (to right, #424949, #fff, #424949);
+}
