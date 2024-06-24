@@ -302,3 +302,26 @@ header nav ul li a:hover {
 	display: grid;
 	grid-template-columns: auto auto;
 }
+
+/* ==================== video ===================== */
+
+#video {
+	text-align: center;
+	background-image: url(../img/intro-video-background.jpg);
+	height: 700px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#video h2 {
+	padding: 25px 0px;
+	background: #424949;
+	color: #fff;
+	margin-top: -20px;
+}
+
+#video iframe {
+	margin: 50px 0px 50px 0px;
+}
